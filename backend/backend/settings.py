@@ -39,7 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     #Apps 
+    'Authentication',
     'Inventory',
+    'Transaction',
     # For DRF
     'rest_framework',
     # for django-cors-headers package
